@@ -1,0 +1,37 @@
+@media screen and (max-width: 1200px)  {
+
+    /* Header */
+    .header {
+        min-height: 600px;
+    }
+
+    .header__container {
+        height: 500px;
+    }
+
+    .header__content {
+        height: 330px;
+    }
+
+    .header__info {
+        min-height: 210px;
+    }
+
+    .header__title {
+        font-size: 50px;
+    }
+
+    .header__subtitle {
+        font-size: 14px;
+    }
+
+    /* About us */
+    .about-us {
+        height: 500px;
+    }
+
+    /* Services */
+    .services {
+        height: 400px;
+    }
+}

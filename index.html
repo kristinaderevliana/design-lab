@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-desktop.css" media="(max-width: 1200px)">
+    <link rel="stylesheet" href="style-laptop.css" media="(max-width: 1024px)">
+    <link rel="stylesheet" href="style-tablet.css" media="(max-width: 768px)">
+    <link rel="stylesheet" href="style-mobile.css" media="(max-width: 480px)">
+    <title>Design Lab</title>
+</head>
+<body>
+
+    <!-- svg -->
+    <svg display="none">
+        <symbol id="logo" width="67" height="70" fill="#fff" viewBox="0 0 208.71 221.31">
+            <g>
+                <path d="M104.36 0c28.82,0 54.91,11.68 73.79,30.57 18.88,18.88 30.56,44.98 30.56,73.79 0,28.66 -11.55,54.62 -30.25,73.47l10.68 19.93c0.17,-0.01 0.35,-0.01 0.52,-0.01 6.51,0 11.78,5.27 11.78,11.78 0,6.51 -5.27,11.78 -11.78,11.78 -4.85,0 -9.01,-2.93 -10.82,-7.11l-63.95 0c-1.81,4.19 -5.97,7.11 -10.82,7.11 -4.85,0 -9.01,-2.93 -10.82,-7.11l-68.67 0c-1.81,4.19 -5.97,7.11 -10.82,7.11 -6.51,0 -11.78,-5.27 -11.78,-11.78 0,-6.51 5.27,-11.78 11.78,-11.78 2.54,0 4.89,0.8 6.82,2.17l11.08 -20.69c-0.37,-0.36 -0.74,-0.72 -1.1,-1.08 -18.88,-18.88 -30.57,-44.97 -30.57,-73.79 0,-28.82 11.68,-54.91 30.56,-73.79 18.88,-18.88 44.98,-30.56 73.79,-30.56zm73.59 208.26c0.39,-3.67 2.47,-6.83 5.44,-8.7l-9.37 -17.5c-15.81,14.19 -35.98,23.61 -58.26,26.03l0.02 0.17 62.17 0zm-73.88 -10.51c3.81,0 7.2,1.81 9.35,4.61 22.19,-2.02 42.25,-11.41 57.71,-25.7l-24.52 -45.77 -41.17 -76.86 -66.4 123.95c15.13,13.43 34.43,22.27 55.72,24.33 2.15,-2.78 5.52,-4.56 9.31,-4.56zm-11.71 10.51l0.03 -0.23c-21.36,-2.44 -40.77,-11.33 -56.22,-24.68l-11.56 21.57c0.44,1.04 0.74,2.16 0.86,3.33l66.88 0zm15.69 -161.87l67.47 125.96c16.89,-17.67 27.26,-41.62 27.26,-67.99 0,-27.18 -11.02,-51.78 -28.83,-69.59 -17.81,-17.81 -42.42,-28.83 -69.59,-28.83 -27.18,0 -51.79,11.02 -69.6,28.83 -17.81,17.81 -28.83,42.42 -28.83,69.6 0,27.09 10.95,51.62 28.65,69.42 23.61,-44.09 47.24,-88.17 70.85,-132.26l2.61 4.87z"/>
+            </g>
+        </symbol>
+    </svg>
+
+    <svg display="none">
+        <symbol id="scroll" width="23" height="37" fill="#fff" viewBox="0 0 23 37">
+            <g>
+                <path d="M961.5,929.757a1.659,1.659,0,1,0,1.657,1.659A1.66,1.66,0,0,0,961.5,929.757Zm-0.954-9.764A11.475,11.475,0,0,0,950,931.416V945.49a11.5,11.5,0,1,0,23,0V931.416a11.481,11.481,0,0,0-10.545-11.423m-0.954,35.1a9.607,9.607,0,0,1-9.591-9.6V931.416a9.591,9.591,0,1,1,19.182,0V945.49A9.607,9.607,0,0,1,961.5,955.091Z" transform="translate(-950 -920)"/>
+            </g>
+        </symbol>
+    </svg>
+
+    <svg display="none">
+        <symbol id="design" width="79.969" height="83.03" fill="#3c3c3c" viewBox="0 0 79.969 83.03">
+            <g>
+                <path d="M994.956,2434.99H983.032a2.015,2.015,0,0,0-2.025,2.02v4.17H932.86v-4.17a2.015,2.015,0,0,0-2.024-2.02H919.024a2.015,2.015,0,0,0-2.025,2.02v12.27a2.015,2.015,0,0,0,2.025,2.02h11.924a2.015,2.015,0,0,0,2.025-2.02v-4.17h22.161c-0.225,4.95-12.262,28.24-19.911,41.97a2.073,2.073,0,0,0,.45,2.47c6.862,5.85,8.549,11.59,9,14.52h-2.587a2.015,2.015,0,0,0-2.025,2.02v9.9a2.018,2.018,0,0,0,2.025,2.03h29.923a2.018,2.018,0,0,0,2.025-2.03v-9.9a2.015,2.015,0,0,0-2.025-2.02H969.42c0.45-2.93,2.138-8.67,9-14.52a2.045,2.045,0,0,0,.45-2.47c-7.65-13.73-19.686-37.13-19.911-41.97h22.048v4.17a2.015,2.015,0,0,0,2.025,2.02h11.924a2.015,2.015,0,0,0,2.025-2.02v-12.27A2.015,2.015,0,0,0,994.956,2434.99Zm-66.033,12.26h-7.987v-8.32h7.987v8.32Zm28.123,32.97a2.585,2.585,0,1,1-2.587,2.58A2.689,2.689,0,0,1,957.046,2480.22Zm13.049,33.64H944.11v-5.97H970.1v5.97Zm-4.612-9.91H948.609c-0.45-3.26-2.137-9.78-9.224-16.42,2.7-4.95,10.8-19.8,15.636-30.83v19.92a6.439,6.439,0,0,0-4.5,6.18,6.525,6.525,0,1,0,8.549-6.18v-20.03c4.95,11.03,12.937,25.88,15.636,30.94C967.621,2494.17,965.933,2500.69,965.483,2503.95Zm27.561-56.7h-7.987v-8.21h7.987v8.21Z" transform="translate(-917 -2435)"/>
+            </g>
+        </symbol>
+    </svg>
+
+    <svg display="none">
+        <symbol id="development" width="79" height="76" fill="#3c3c3c" viewBox="0 0 79 76">
+            <g>
+                <path d="M994.921,2886H920.078a2.09,2.09,0,0,1-2.08-2.1v-60.92a2.09,2.09,0,0,1,2.08-2.1h74.843a2.09,2.09,0,0,1,2.079,2.1v60.92A2.09,2.09,0,0,1,994.921,2886Zm-72.765-4.2h70.686v-56.72H922.156v56.72Zm72.765-56.72H920.078a2.09,2.09,0,0,1-2.08-2.1v-10.89a2.09,2.09,0,0,1,2.08-2.1h74.843a2.09,2.09,0,0,1,2.079,2.1v10.89A2.09,2.09,0,0,1,994.921,2825.08Zm-72.765-4.2h70.686v-6.69H922.156v6.69Zm5.025-4.81a1.47,1.47,0,1,1-1.455,1.47A1.463,1.463,0,0,1,927.181,2816.07Zm4.35,0a1.465,1.465,0,1,1-1.453,1.47A1.463,1.463,0,0,1,931.531,2816.07Zm4.35,0a1.47,1.47,0,1,1-1.454,1.47A1.463,1.463,0,0,1,935.881,2816.07Zm11.164,43.11a1.8,1.8,0,0,1-1.286-.54l-5.66-5.71a1.851,1.851,0,0,1,0-2.6l5.649-5.71a1.82,1.82,0,0,1,2.573,0,1.851,1.851,0,0,1,0,2.6l-4.364,4.41,4.374,4.41a1.853,1.853,0,0,1,0,2.6A1.8,1.8,0,0,1,947.045,2859.18Zm20.917,0a1.8,1.8,0,0,1-1.286-.54,1.851,1.851,0,0,1,0-2.6l4.365-4.4-4.375-4.42a1.853,1.853,0,0,1,0-2.6,1.819,1.819,0,0,1,2.572,0l5.66,5.72a1.837,1.837,0,0,1,0,2.59l-5.651,5.71A1.8,1.8,0,0,1,967.962,2859.18Zm-13.069,4.24a1.767,1.767,0,0,1-.452-0.06,1.835,1.835,0,0,1-1.312-2.23l4.623-18.28a1.818,1.818,0,0,1,2.212-1.33,1.842,1.842,0,0,1,1.314,2.24l-4.624,18.28A1.821,1.821,0,0,1,954.893,2863.42Z" transform="translate(-918 -2810)"/>
+            </g>
+        </symbol>
+    </svg>
+
+    <svg display="none">
+        <symbol id="management" width="78.969" height="91" fill="#3c3c3c" viewBox="0 0 78.969 91">
+            <g>
+                <path d="M939.756,3177.11a1.579,1.579,0,0,1-1.109-.45l-3.1-3.08a1.548,1.548,0,0,1,0-2.2,1.574,1.574,0,0,1,2.219,0l1.989,1.97,5.086-5.05a1.574,1.574,0,0,1,2.219,0,1.546,1.546,0,0,1,0,2.2l-6.2,6.16A1.589,1.589,0,0,1,939.756,3177.11Zm32.555-3.07H953.637a1.56,1.56,0,1,1,0-3.12h18.674A1.56,1.56,0,1,1,972.311,3174.04Zm-32.555,29.75a1.579,1.579,0,0,1-1.109-.45l-3.1-3.08a1.548,1.548,0,0,1,0-2.2,1.574,1.574,0,0,1,2.219,0l1.989,1.97,5.086-5.05a1.574,1.574,0,0,1,2.219,0,1.546,1.546,0,0,1,0,2.2l-6.2,6.16A1.589,1.589,0,0,1,939.756,3203.79Zm32.555-3.07H953.637a1.56,1.56,0,1,1,0-3.12h18.674A1.56,1.56,0,1,1,972.311,3200.72Zm-32.555,16.42a1.589,1.589,0,0,1-1.109-.46l-3.1-3.08a1.548,1.548,0,0,1,0-2.2,1.574,1.574,0,0,1,2.219,0l1.989,1.97,5.086-5.05a1.574,1.574,0,0,1,2.219,0,1.557,1.557,0,0,1,0,2.21l-6.2,6.15A1.6,1.6,0,0,1,939.756,3217.14Zm32.555-3.08H953.637a1.56,1.56,0,1,1,0-3.12h18.674A1.56,1.56,0,1,1,972.311,3214.06Zm-32.555-23.61a1.579,1.579,0,0,1-1.109-.45l-3.1-3.08a1.56,1.56,0,0,1,0-2.21,1.593,1.593,0,0,1,2.219,0l1.989,1.98,5.086-5.05a1.574,1.574,0,0,1,2.219,0,1.545,1.545,0,0,1,0,2.2l-6.2,6.16A1.589,1.589,0,0,1,939.756,3190.45Zm32.555-3.07H953.637a1.56,1.56,0,1,1,0-3.12h18.674A1.56,1.56,0,1,1,972.311,3187.38Zm22.577-36.98H976.422a6.132,6.132,0,0,0-6.141-5.68H964.3a5.812,5.812,0,0,0-11.623,0h-5.994a6.128,6.128,0,0,0-6.131,5.68H920.081a2.088,2.088,0,0,0-2.092,2.08v75.44a2.082,2.082,0,0,0,2.092,2.08h74.807a2.083,2.083,0,0,0,2.093-2.08v-75.44A2.089,2.089,0,0,0,994.888,3150.4Zm-50.177.44a1.965,1.965,0,0,1,1.968-1.96h6.539a3.63,3.63,0,0,0,3.641-3.61v-0.48a1.627,1.627,0,0,1,3.254,0v0.48a3.627,3.627,0,0,0,3.63,3.61h6.539a1.966,1.966,0,0,1,1.977,1.96v4.26H944.713v-4.26h0Zm48.085,75H922.173v-71.28h18.353v2.62a2.082,2.082,0,0,0,2.092,2.08h31.731a2.082,2.082,0,0,0,2.092-2.08v-2.62h16.353v71.28h0Zm-34.311-76.7a2,2,0,1,1-2.01,2A2,2,0,0,1,958.485,3149.14Z" transform="translate(-918 -3139)"/>
+            </g>
+        </symbol>
+    </svg>
+
+    <svg display="none">
+        <symbol id="footerlogo" width="35" height="37" fill="#3c3c3c" viewBox="0 0 208.71 221.31">
+            <g>
+                <path d="M104.36 0c28.82,0 54.91,11.68 73.79,30.57 18.88,18.88 30.56,44.98 30.56,73.79 0,28.66 -11.55,54.62 -30.25,73.47l10.68 19.93c0.17,-0.01 0.35,-0.01 0.52,-0.01 6.51,0 11.78,5.27 11.78,11.78 0,6.51 -5.27,11.78 -11.78,11.78 -4.85,0 -9.01,-2.93 -10.82,-7.11l-63.95 0c-1.81,4.19 -5.97,7.11 -10.82,7.11 -4.85,0 -9.01,-2.93 -10.82,-7.11l-68.67 0c-1.81,4.19 -5.97,7.11 -10.82,7.11 -6.51,0 -11.78,-5.27 -11.78,-11.78 0,-6.51 5.27,-11.78 11.78,-11.78 2.54,0 4.89,0.8 6.82,2.17l11.08 -20.69c-0.37,-0.36 -0.74,-0.72 -1.1,-1.08 -18.88,-18.88 -30.57,-44.97 -30.57,-73.79 0,-28.82 11.68,-54.91 30.56,-73.79 18.88,-18.88 44.98,-30.56 73.79,-30.56zm73.59 208.26c0.39,-3.67 2.47,-6.83 5.44,-8.7l-9.37 -17.5c-15.81,14.19 -35.98,23.61 -58.26,26.03l0.02 0.17 62.17 0zm-73.88 -10.51c3.81,0 7.2,1.81 9.35,4.61 22.19,-2.02 42.25,-11.41 57.71,-25.7l-24.52 -45.77 -41.17 -76.86 -66.4 123.95c15.13,13.43 34.43,22.27 55.72,24.33 2.15,-2.78 5.52,-4.56 9.31,-4.56zm-11.71 10.51l0.03 -0.23c-21.36,-2.44 -40.77,-11.33 -56.22,-24.68l-11.56 21.57c0.44,1.04 0.74,2.16 0.86,3.33l66.88 0zm15.69 -161.87l67.47 125.96c16.89,-17.67 27.26,-41.62 27.26,-67.99 0,-27.18 -11.02,-51.78 -28.83,-69.59 -17.81,-17.81 -42.42,-28.83 -69.59,-28.83 -27.18,0 -51.79,11.02 -69.6,28.83 -17.81,17.81 -28.83,42.42 -28.83,69.6 0,27.09 10.95,51.62 28.65,69.42 23.61,-44.09 47.24,-88.17 70.85,-132.26l2.61 4.87z"/>
+            </g>
+        </symbol>
+    </svg>
+
+    <!-- header -->
+    <header class="header">
+        <div class="header__container">
+            <div class="header__content">
+                <svg class="header__logo">
+                    <use xlink:href="#logo"></use>
+                </svg>
+                <div class="header__info">
+                    <h1 class="header__title">
+                        WORKING<br> WITH DESIGN LAB
+                    </h1>
+                    <h4 class="header__subtitle">
+                        We’ve been helping startups launch and grow their businesses.<br> We help you to fill the gap between development,<br> design and product management.
+                    </h4>
+                </div>
+            </div>
+            <a href="#aboutus">
+                <svg class="header__scroll">
+                    <use xlink:href="#scroll"></use>
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <!-- About us -->
+    <section class="about-us" id="aboutus">
+        <div class="about-us__container">
+            <div class="about-us__inner">
+                <div class="about-us__title">
+                    <h4>ABOUT US</h4>
+                </div>
+                <div class="about-us__subtitle">
+                    <p class="about-us__subtitle-one"> When you work with us, you are part of a team of committed collaborators. All aspects of our software development process are integrated, iterative and agile.</p>
+                    <br>
+                    <p class="about-us__subtitle-two">Our approach unifies design, development and product management to create exceptional products. We start each project by understanding your business goals, the user’s needs and the product requirements. Then we help translate them into effective and elegant solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services">
+        <div class="services__container">
+            <div class="services__inner">
+                <div class="services__title">
+                    <h4>SERVICES</h4>
+                </div>
+                <div class="services__subtitle">
+                    <p class="services__subtitle-one"> Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision. </p>
+                    <p class="services__subtitle-two">The outcome of this scoping session is a proposal or high-level statement of work. Based on your requirements, we can provide a complete offering or just the pieces you need. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What we do -->
+    <section class="what-we-do">
+        <div class="what-we-do__container">
+            <div class="what-we-do__inner">
+                <div class="what-we-do__title">
+                    <h4>WHAT WE DO</h4>
+                </div>
+                <div class="what-we-do__items">
+
+                    <div class="what-we-do__items-container">
+                        <svg class="what-we-do__items-logo">
+                            <use xlink:href="#design"></use>
+                        </svg>
+                        <h6 class="what-we-do__items-title">DESIGN</h6>
+                        <div class="what-we-do__items-subtitle">
+                            <p class="what-we-do__items-subtitle-one">Our design practice offers a full range of services including branding strategy, interaction and visual design and user experience testing.</p>
+                            <p class="what-we-do__items-subtitle-two">
+                            Throughout your project, our designers create and implement visual designs and workflows, solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
+                        </div>
+                    </div>
+
+                    <div class="what-we-do__items-container">
+                        <svg class="what-we-do__items-logo">
+                            <use xlink:href="#development"></use>
+                        </svg>
+                        <h6 class="what-we-do__items-title">DEVELOPMENT</h6>
+                        <div class="what-we-do__items-subtitle">
+                            <p class="what-we-do__items-subtitle-one">All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+                            <p class="what-we-do__items-subtitle-two">
+                            They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programing.</p>
+                        </div>
+                    </div>
+
+                    <div class="what-we-do__items-container">
+                        <svg class="what-we-do__items-logo">
+                            <use xlink:href="#management"></use>
+                        </svg>
+                        <h6 class="what-we-do__items-title">PRODUCT MANAGEMENT</h6>
+                        <div class="what-we-do__items-subtitle">
+                            <p class="what-we-do__items-subtitle-one">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery">
+        <a href="#" class="topworkz">
+            <h4 class="gallery__title">TOPWORKZ</h4>
+        </a>
+        <a href="#" class="joint">
+            <h4 class="gallery__title">JOINT</h4>
+        </a>
+        <a href="#" class="market">
+            <h4 class="gallery__title">MARKET</h4>
+        </a>
+        <a href="#" class="worktop">
+            <h4 class="gallery__title">WORKTOP</h4>
+        </a>
+        <a href="#" class="lable">
+            <h4 class="gallery__title">LABLE</h4>
+        </a>
+        <a href="#" class="kyiv">
+            <h4 class="gallery__title">KYIV</h4>
+        </a>
+    </section>
+
+    <!-- Contact us -->
+    <section class="contact-us">
+        <div class="contact-us__container">
+            <div class="contact-us__inner">
+                <div class="contact-us__title">
+                    <h4>CONTACT US</h4>
+                </div>
+                <div class="contact-us__subtitle">
+                    <p class="contact-us__subtitle-one">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve. </p>
+                </div>
+            </div>
+            <div class="contact-us__btn">
+                <form action="#" target="_blank">
+                    <button>CONTACT US</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <svg class="footer__logo">
+                <use xlink:href="#footerlogo"></use>
+            </svg>
+            <p class="footer__rights">© 2014. All Rights Reserved Ellipsis.com</p>
+        </div>
+    </footer>
+
+</body>
+</html>
